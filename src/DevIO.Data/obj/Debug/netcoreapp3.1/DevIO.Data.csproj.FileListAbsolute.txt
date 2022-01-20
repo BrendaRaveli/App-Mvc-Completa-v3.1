@@ -1,0 +1,26 @@
+D:\Materias de estudos\Back End\02 - Dominando o ASP.NET MVC Core\Links e Materiais\Materiais\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.deps.json
+D:\Materias de estudos\Back End\02 - Dominando o ASP.NET MVC Core\Links e Materiais\Materiais\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.dll
+D:\Materias de estudos\Back End\02 - Dominando o ASP.NET MVC Core\Links e Materiais\Materiais\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.pdb
+D:\Materias de estudos\Back End\02 - Dominando o ASP.NET MVC Core\Links e Materiais\Materiais\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Business.dll
+D:\Materias de estudos\Back End\02 - Dominando o ASP.NET MVC Core\Links e Materiais\Materiais\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Business.pdb
+D:\Materias de estudos\Back End\02 - Dominando o ASP.NET MVC Core\Links e Materiais\Materiais\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.AssemblyReference.cache
+D:\Materias de estudos\Back End\02 - Dominando o ASP.NET MVC Core\Links e Materiais\Materiais\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Materias de estudos\Back End\02 - Dominando o ASP.NET MVC Core\Links e Materiais\Materiais\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.AssemblyInfoInputs.cache
+D:\Materias de estudos\Back End\02 - Dominando o ASP.NET MVC Core\Links e Materiais\Materiais\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.AssemblyInfo.cs
+D:\Materias de estudos\Back End\02 - Dominando o ASP.NET MVC Core\Links e Materiais\Materiais\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.CoreCompileInputs.cache
+D:\Materias de estudos\Back End\02 - Dominando o ASP.NET MVC Core\Links e Materiais\Materiais\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.CopyComplete
+D:\Materias de estudos\Back End\02 - Dominando o ASP.NET MVC Core\Links e Materiais\Materiais\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.dll
+D:\Materias de estudos\Back End\02 - Dominando o ASP.NET MVC Core\Links e Materiais\Materiais\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.pdb
+D:\Materias de estudos\Projetos\Funcionando\AppMvcCompleta\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.deps.json
+D:\Materias de estudos\Projetos\Funcionando\AppMvcCompleta\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.dll
+D:\Materias de estudos\Projetos\Funcionando\AppMvcCompleta\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Data.pdb
+D:\Materias de estudos\Projetos\Funcionando\AppMvcCompleta\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Business.dll
+D:\Materias de estudos\Projetos\Funcionando\AppMvcCompleta\src\DevIO.Data\bin\Debug\netcoreapp3.1\DevIO.Business.pdb
+D:\Materias de estudos\Projetos\Funcionando\AppMvcCompleta\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.AssemblyReference.cache
+D:\Materias de estudos\Projetos\Funcionando\AppMvcCompleta\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Materias de estudos\Projetos\Funcionando\AppMvcCompleta\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.AssemblyInfoInputs.cache
+D:\Materias de estudos\Projetos\Funcionando\AppMvcCompleta\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.AssemblyInfo.cs
+D:\Materias de estudos\Projetos\Funcionando\AppMvcCompleta\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.CoreCompileInputs.cache
+D:\Materias de estudos\Projetos\Funcionando\AppMvcCompleta\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.csproj.CopyComplete
+D:\Materias de estudos\Projetos\Funcionando\AppMvcCompleta\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.dll
+D:\Materias de estudos\Projetos\Funcionando\AppMvcCompleta\src\DevIO.Data\obj\Debug\netcoreapp3.1\DevIO.Data.pdb

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6/F/RZLbl5rM5ixqx9eytDO4SkHfaZVim7BUyCWRLQaTH119SN7iC4OFP0tM1TYIuPjn4ui9yvw0KeZ8wt7Hzw==",
+  "success": true,
+  "projectFilePath": "D:\\Materias de estudos\\Projetos\\Funcionando\\AppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\brenda.raveli\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
