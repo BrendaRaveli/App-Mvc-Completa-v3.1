@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UG6xSXqBfn1CUOE+Po0PzH1NMAvWaLPSFq3vgWaX0w+KQP9KUe1uoUy87VRf+I8RjmZCn/tddfuchMiR4GFrRw==",
+  "dgSpecHash": "6r+62kvOdASxq7bkcSnTFlh3lannW4c0PqB2P2AdAKnBeZUuSfQCNjpYiotLQuokXAJ7/vWBgF7RcIHbGPEGrQ==",
   "success": true,
-  "projectFilePath": "D:\\Materias de estudos\\Projetos\\Funcionando\\AppMvcCompleta\\src\\DevIO.App\\DevIO.App.csproj",
+  "projectFilePath": "D:\\Materias de estudos\\Projetos\\Funcionando\\AppMvcCompleta3.1\\src\\DevIO.App\\DevIO.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brenda.raveli\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\brenda.raveli\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

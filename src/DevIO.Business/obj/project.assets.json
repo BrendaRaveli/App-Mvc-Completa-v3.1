@@ -47,11 +47,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Materias de estudos\\Projetos\\Funcionando\\AppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
+      "projectUniqueName": "D:\\Materias de estudos\\Projetos\\Funcionando\\AppMvcCompleta3.1\\src\\DevIO.Business\\DevIO.Business.csproj",
       "projectName": "DevIO.Business",
-      "projectPath": "D:\\Materias de estudos\\Projetos\\Funcionando\\AppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj",
+      "projectPath": "D:\\Materias de estudos\\Projetos\\Funcionando\\AppMvcCompleta3.1\\src\\DevIO.Business\\DevIO.Business.csproj",
       "packagesPath": "C:\\Users\\brenda.raveli\\.nuget\\packages\\",
-      "outputPath": "D:\\Materias de estudos\\Projetos\\Funcionando\\AppMvcCompleta\\src\\DevIO.Business\\obj\\",
+      "outputPath": "D:\\Materias de estudos\\Projetos\\Funcionando\\AppMvcCompleta3.1\\src\\DevIO.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

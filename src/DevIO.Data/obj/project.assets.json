@@ -4932,11 +4932,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Materias de estudos\\Projetos\\Funcionando\\AppMvcCompleta\\src\\DevIO.Data\\DevIO.Data.csproj",
+      "projectUniqueName": "D:\\Materias de estudos\\Projetos\\Funcionando\\AppMvcCompleta3.1\\src\\DevIO.Data\\DevIO.Data.csproj",
       "projectName": "DevIO.Data",
-      "projectPath": "D:\\Materias de estudos\\Projetos\\Funcionando\\AppMvcCompleta\\src\\DevIO.Data\\DevIO.Data.csproj",
+      "projectPath": "D:\\Materias de estudos\\Projetos\\Funcionando\\AppMvcCompleta3.1\\src\\DevIO.Data\\DevIO.Data.csproj",
       "packagesPath": "C:\\Users\\brenda.raveli\\.nuget\\packages\\",
-      "outputPath": "D:\\Materias de estudos\\Projetos\\Funcionando\\AppMvcCompleta\\src\\DevIO.Data\\obj\\",
+      "outputPath": "D:\\Materias de estudos\\Projetos\\Funcionando\\AppMvcCompleta3.1\\src\\DevIO.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -4960,8 +4960,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Materias de estudos\\Projetos\\Funcionando\\AppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj": {
-              "projectPath": "D:\\Materias de estudos\\Projetos\\Funcionando\\AppMvcCompleta\\src\\DevIO.Business\\DevIO.Business.csproj"
+            "D:\\Materias de estudos\\Projetos\\Funcionando\\AppMvcCompleta3.1\\src\\DevIO.Business\\DevIO.Business.csproj": {
+              "projectPath": "D:\\Materias de estudos\\Projetos\\Funcionando\\AppMvcCompleta3.1\\src\\DevIO.Business\\DevIO.Business.csproj"
             }
           }
         }

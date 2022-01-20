@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\DevIO.App"
   ],
-  "SelectedNode": "\\MinhaAppMvcCompleta.sln",
+  "SelectedNode": "\\src\\DevIO.App\\DevIO.App.csproj",
   "PreviewInSolutionExplorer": false
 }

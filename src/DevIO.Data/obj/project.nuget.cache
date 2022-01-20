@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JnWIPizwY2wMKsW9Q0uGTOxBWeu3qmtPDHmBlmPXJelB6chzAOTUA9cNuQIOG2xt7H/1wrJvQtLB2VTQWQyy7g==",
+  "dgSpecHash": "qrzdIerm1nz4qmQWd43Kf7yz2wtv+uo3tmecB3zTckvB+2IF4X3QxsQql1RnM68Tf3pgCh7yB6jISuyBrUYfVw==",
   "success": true,
-  "projectFilePath": "D:\\Materias de estudos\\Projetos\\Funcionando\\AppMvcCompleta\\src\\DevIO.Data\\DevIO.Data.csproj",
+  "projectFilePath": "D:\\Materias de estudos\\Projetos\\Funcionando\\AppMvcCompleta3.1\\src\\DevIO.Data\\DevIO.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brenda.raveli\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
     "C:\\Users\\brenda.raveli\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
