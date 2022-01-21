@@ -8,6 +8,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using DevIO.App.Data;
+using DevIO.Business.Intefaces;
+using DevIO.Data.Repository;
 
 //Classe startup https://docs.microsoft.com/pt-br/aspnet/core/fundamentals/?view=aspnetcore-6.0&tabs=windows
 namespace DevIO.App
@@ -37,7 +39,7 @@ namespace DevIO.App
             services.AddIdentityConfiguration(Configuration);
 
             services.AddDbContext<ApplicationDbContext>(options =>              /*Aqui eu estou configurando o IdentityDbContext*/
-           options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));// ficar de olho para ver se não apresetna erro.
+           options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));// ficar de olho para ver se não apresenta erro. Pego do Git.
 
             services.AddDbContext<MeuDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
@@ -49,6 +51,12 @@ namespace DevIO.App
             //No automapper eu tenho que informa qual assembly ira utilizar para trabalhar como base e referencia para resolver o que for necesario. Neste caso (typeof(Startup)). Teremos que criar uma configuração de resolução do automapper dentro da camada mvc.
             //Eu estou informando " dentro assembly, DevIO.App procure uma referencia ou qualquer classe que possua o profile como herença (Profile e uma classe de configuração de mapeamento do automapper)
 
+            services.AddScoped<MeuDbContext>();
+            services.AddScoped<IProdutoRepository, ProdutoRepository>();
+            services.AddScoped<IFornecedorRepository, FornecedorRepository>();
+            services.AddScoped<IEnderecoRepository, EnderecoRepository>(); // Ficar de olho. Pego do Git
+
+            //Criamos um meio de acesso ao banco.
 
             services.AddMvcConfiguration();
 
