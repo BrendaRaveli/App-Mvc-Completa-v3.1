@@ -7,7 +7,9 @@ using DevIO.Data.Context;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using DevIO.App.Data;
 
+//Classe startup https://docs.microsoft.com/pt-br/aspnet/core/fundamentals/?view=aspnetcore-6.0&tabs=windows
 namespace DevIO.App
 {
     public class Startup
@@ -34,10 +36,19 @@ namespace DevIO.App
         {
             services.AddIdentityConfiguration(Configuration);
 
+            services.AddDbContext<ApplicationDbContext>(options =>              /*Aqui eu estou configurando o IdentityDbContext*/
+           options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));// ficar de olho para ver se não apresetna erro.
+
             services.AddDbContext<MeuDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            //aqui eu falo que o meu contexto esta mapeado.
 
             services.AddAutoMapper(typeof(Startup));
+            // Agora iremos configurar o automapper. Para a sua utilização e necessario a instação do pacote AutoMapper.Extensions.Microsoft.DependencyInjection. E o using AutoMapper.
+            // typeof = O typeof operador C# ( GetType operador em Visual Basic) é usado para obter um Type objeto que representa String . Desse Type objeto, o GetMethod método é usado para obter uma MethodInfo representação da String.Substring sobrecarga que usa um local inicial e um comprimento.
+            //No automapper eu tenho que informa qual assembly ira utilizar para trabalhar como base e referencia para resolver o que for necesario. Neste caso (typeof(Startup)). Teremos que criar uma configuração de resolução do automapper dentro da camada mvc.
+            //Eu estou informando " dentro assembly, DevIO.App procure uma referencia ou qualquer classe que possua o profile como herença (Profile e uma classe de configuração de mapeamento do automapper)
+
 
             services.AddMvcConfiguration();
 

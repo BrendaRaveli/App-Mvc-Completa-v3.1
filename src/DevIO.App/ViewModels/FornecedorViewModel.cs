@@ -24,8 +24,11 @@ namespace DevIO.App.ViewModels
         public EnderecoViewModel Endereco { get; set; }
 
         [DisplayName("Ativo?")]
+        //Esta é a forma como o MVC ira escrever o nome desta propriedade na tela. É necessario importa o using System.ComponentModel;
         public bool Ativo { get; set; }
 
         public IEnumerable<ProdutoViewModel> Produtos { get; set; }
+        //Declaração da propriedades. Para o entity entender que e o fornecedor tem um relação de 1 pra muitos com produto.
+
     }
 }

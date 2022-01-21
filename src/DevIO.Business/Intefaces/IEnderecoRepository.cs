@@ -7,5 +7,7 @@ namespace DevIO.Business.Intefaces
     public interface IEnderecoRepository : IRepository<Endereco>
     {
         Task<Endereco> ObterEnderecoPorFornecedor(Guid fornecedorId);
+        // Para obter um endereço atraves do fornecedor, atraves do id do fornecedor.
+
     }
 }

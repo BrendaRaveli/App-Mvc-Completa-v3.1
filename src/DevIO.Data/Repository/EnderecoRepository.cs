@@ -8,8 +8,10 @@ using Microsoft.EntityFrameworkCore;
 namespace DevIO.Data.Repository
 {
     public class EnderecoRepository : Repository<Endereco>, IEnderecoRepository
-    {
+    {    // Irei herda de repository de produto, e implemento a interface IProdutoRepository
+
         public EnderecoRepository(MeuDbContext context) : base(context) { }
+        // aqui eu crio um construto, que inform que irie receber o db context e passa para a classe base o contexto
 
         public async Task<Endereco> ObterEnderecoPorFornecedor(Guid fornecedorId)
         {

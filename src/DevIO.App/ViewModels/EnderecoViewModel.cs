@@ -8,6 +8,8 @@ namespace DevIO.App.ViewModels
     {
         [Key]
         public Guid Id { get; set; }
+        //Este e o guid para representa o id
+
 
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         [StringLength(200, ErrorMessage = "O campo {0} precisa ter entre {2} e {1} caracteres", MinimumLength = 2)]
@@ -36,6 +38,9 @@ namespace DevIO.App.ViewModels
         public string Estado { get; set; }
 
         [HiddenInput]
+        // permite definir dados que são passados a um programa mas não aparecem ao utilizador do formulário. Este campo serve para memorizar valores durante um diálogo com o utilizador.
         public Guid FornecedorId { get; set; }
+        // E necessario o fornecedor id para saber a quem pertence este endereço
+
     }
 }

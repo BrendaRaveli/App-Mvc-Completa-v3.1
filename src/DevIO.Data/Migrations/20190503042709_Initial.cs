@@ -1,6 +1,8 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
+
+//Comando para a criação desta migration -> add-migration initial -verbose -context meudbcontext
 namespace DevIO.Data.Migrations
 {
     public partial class Initial : Migration
