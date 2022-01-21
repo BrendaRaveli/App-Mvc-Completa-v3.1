@@ -27,6 +27,7 @@ namespace DevIO.App.ViewModels
 
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         [StringLength(8, ErrorMessage = "O campo {0} precisa ter {1} caracteres", MinimumLength = 8)]
+        //O cep tem que ter 8 numeros. Então o maximo e minimo serão 8.
         public string Cep { get; set; }
 
         [Required(ErrorMessage = "O campo {0} é obrigatório")]

@@ -6,12 +6,17 @@ using DevIO.App.Extensions;
 using DevIO.Business.Models;
 using Microsoft.AspNetCore.Http;
 
+
+//configuração DE... PARA...
 namespace DevIO.App.ViewModels
 {
     public class ProdutoViewModel
     {
         [Key]
+        // Para informa que o id sempre sera uma chave, e não um campo.
         public Guid Id { get; set; }
+        // O id do produto
+
 
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         [DisplayName("Fornecedor")]
@@ -28,15 +33,22 @@ namespace DevIO.App.ViewModels
 
         [DisplayName("Imagem do Produto")]
         public IFormFile ImagemUpload { get; set; }
+        //Aqui eu inform que o campo imagem ira fazer um upload de um documento
 
         public string Imagem { get; set; }
+        //Eu tenho que manter este campo para ser gerado o campo com o scaffold
+
 
         [Moeda]
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         public decimal Valor { get; set; }
 
         [ScaffoldColumn(false)]
+        //Aqui eu inform que quando for fazer o scaffold, ignore este campo.
+
         public DateTime DataCadastro { get; set; }
+        //A data cadastro não sera requerida pois sera preenchida no momento do cadastro no banco
+
 
         [DisplayName("Ativo?")]
         public bool Ativo { get; set; }

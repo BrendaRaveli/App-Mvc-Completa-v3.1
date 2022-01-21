@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
+// A view model tem como finalidade exibir coisas na tela.
 namespace DevIO.App.ViewModels
 {
     public class FornecedorViewModel
@@ -22,6 +23,8 @@ namespace DevIO.App.ViewModels
         public int TipoFornecedor { get; set; }
         
         public EnderecoViewModel Endereco { get; set; }
+        //Relação direta com endereço
+
 
         [DisplayName("Ativo?")]
         //Esta é a forma como o MVC ira escrever o nome desta propriedade na tela. É necessario importa o using System.ComponentModel;

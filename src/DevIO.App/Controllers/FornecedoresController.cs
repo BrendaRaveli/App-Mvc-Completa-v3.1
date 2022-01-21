@@ -14,6 +14,8 @@ namespace DevIO.App.Controllers
     [Authorize]
     public class FornecedoresController : BaseController
     {
+        ////Nesta forma simples, você vai injetar o controller no contexto e começa a seleciona seus modelos passando a view.
+
         private readonly IFornecedorRepository _fornecedorRepository;
         private readonly IFornecedorService _fornecedorService;
         private readonly IMapper _mapper;
@@ -62,6 +64,7 @@ namespace DevIO.App.Controllers
         public async Task<IActionResult> Create(FornecedorViewModel fornecedorViewModel)
         {
             if (!ModelState.IsValid) return View(fornecedorViewModel);
+            // validação
 
             var fornecedor = _mapper.Map<Fornecedor>(fornecedorViewModel);
             await _fornecedorService.Adicionar(fornecedor);
